@@ -1,0 +1,5 @@
+#!/bin/bash
+
+tail -f /var/log/my-app.log
+uname -mrs
+lsb_release -a
