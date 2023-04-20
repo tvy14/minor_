@@ -1,2 +1,2 @@
 # minor_
-just bash scripting
+just bash scripting and unstable coded scritp
