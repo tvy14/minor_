@@ -1,16 +1,18 @@
 # minor_
-just bash scripting and unstable coded scritp
+just bash scripting and unstable coded script dude
 
-#Bash Scripting to Rule the World
-Bash scripting is a powerful tool that can be used to automate tasks, manage systems, and even rule the world! Here are some examples of what you can do with Bash scripting:
+# Bash Scripting to Rule the World
+For me Bash scripting is utterly powerful tool that I use to automate my daily tasks, managing my sub-systems including main systems, even rule the world lol!
 
-#Automate tasks
-With Bash scripting, you can automate repetitive tasks, such as backups, file transfers, and data processing. By writing scripts that perform these tasks, you can save time and ensure consistency across your systems.
+Several Tasks can be done using scr'y'pting :
 
-#Manage systems
-Bash scripting can also be used to manage systems, such as servers, network devices, and databases. You can write scripts that monitor system performance, automate software updates, and manage user accounts.
+# Automate tasks
+This repo introduce you to short your amount of time wasted in the repetitive, redundant tasks : backup, file transfer, checking version, processing  your data.. With this script I bet you can save your precious time and see the sunshine while in the 'golden hour' before sunset ikrrrr.. OKay, I mean you can save time and be consistent and persistent acroosssssss your systems.
 
-#Rule the world
-Okay, maybe not the whole world, but Bash scripting can certainly help you rule your own little corner of it. By combining Bash scripts with other tools, such as cron, Git, and Docker, you can create powerful workflows that automate entire systems and processes.
+# Manage systems
+Manage the world you mean? NO, managing systems like our dependencies, packages, servers, my dbs, networks devices, and monitoring.. Leverage this and you know the beauty of having a 'bashed' degree
 
-In short, Bash scripting is a versatile tool that can be used to solve a wide range of problems and streamline your workflows. Whether you're a sysadmin, developer, or just a curious tinkerer, Bash scripting is a skill worth mastering.
+# Rule the world
+Okay, maybe not the whole world, but Bash scripting can certainly help you rule your own little corner of it. By combining Bash scripts with other tools, such as cron, Git, and Docker, we can create powerful workflows that automate entire systems and processes.
+
+In a nutshell, Bash scripting is Versatile, and one step solution for your wide range 'demand' or in a corporate hierarchy you are in the level of 'receiving': "do this", "do that". NO, this will help you to do that and it's a worth to explore and mastering with enough CURIOSITY
