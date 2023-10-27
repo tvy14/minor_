@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <cuda.h>
 
-// CUDA Kernel function 
+# CUDA Kernel function 
 __global__ void square(float *d_out, float *d_in) {
     int idx = threadIdx.x;
     float f = d_in[idx];
@@ -20,21 +20,21 @@ int main(int argc, char **argv) {
     }
     float h_out[ARRAY_SIZE];
 
-    // Declare GPU memory pointers
+    # Declare GPU memory pointers
     float * d_in;
     float * d_out;
 
-    // Allocate GPU memory
+    # Allocate GPU memory
     cudaMalloc((void**) &d_in, ARRAY_BYTES);
     cudaMalloc((void**) &d_out, ARRAY_BYTES);
 
-    // Transfer the array to the GPU
+    # Transfer the array to the GPU
     cudaMemcpy(d_in, h_in, ARRAY_BYTES, cudaMemcpyHostToDevice);
 
-    // Launch the kernel
+    # Launch the kernel
     square<<<1, ARRAY_SIZE>>>(d_out, d_in);
 
-    // Copy back the result array to the CPU
+    # Copy back the result array to the CPU
     cudaMemcpy(h_out, d_out, ARRAY_BYTES, cudaMemcpyDeviceToHost);
 
     // Print out the resulting array
