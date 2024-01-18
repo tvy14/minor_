@@ -1,16 +1,16 @@
 import numpy as np
 
 def create_dummy_models(num_models, model_size):
-    """
-    Creates dummy models for simulation.
-    
-    Args:
-    num_models (int): Number of models to create.
-    model_size (int): Size of each model (number of parameters).
-    
-    Returns:
-    list: List of dummy models.
-    """
+    model = Sequential([
+        Conv2D(32, (3, 3), activation='relu', input_shape=input_shape),
+        MaxPooling2D((2, 2)),
+        Conv2D(64, (3, 3), activation='relu'),
+        MaxPooling2D((2, 2)),
+        Conv2D(64, (3, 3), activation='relu'),
+        Flatten(),
+        Dense(64, activation='relu'),
+        Dense(num_classes, activation='softmax')
+    ])
     return [np.random.rand(model_size) for _ in range(num_models)]
 
 def replace_global_model(local_models, global_model, malicious_model, n, kappa):
