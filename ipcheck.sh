@@ -62,7 +62,7 @@ main() {
   check_ip_status_config
   check_connection_status
   check_routing_table
-  check_neighbors_ip()
+  check_neighbors_ip
 }
 
 main
