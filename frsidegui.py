@@ -8,7 +8,7 @@ class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
 
-        # You will need to replace this with your own video display widget
+        # Widget placeholder below
         # The QPushButton is just used as a placeholder
         self.video_display = QPushButton("Video Stream Placeholder")
 
