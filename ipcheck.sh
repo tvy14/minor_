@@ -55,6 +55,9 @@ main() {
   check_ip_status_config
   check_connection_status
   check_routing_table
+  #check_open_ports
+  #check_dns
+  
 }
 
 main
