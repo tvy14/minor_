@@ -26,8 +26,8 @@ class FronthaulOptim:
         self.nodes = [i for i in range(num_nodes)]
         self.current_block = None
 
-    throughput_tps = consensus.get_throughput()
-    throughput_mbps = throughput_tps * Block.get_size()
+    throughput_tps = ###
+    throughput_mbps = ###
 
     return throughput_tps, throughput_mbps
 
