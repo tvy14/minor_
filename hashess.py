@@ -40,3 +40,17 @@ class Blockchain:
 
         return True
 #Put the FL , and add Consensus Mechanism here on
+
+class WeightAggr:
+    def __init__(self):
+        self.weights = []
+
+    def add_weight(self, weight):
+        self.weights.append(weight)
+
+    def aggregate(self):
+        total_weight = sum(self.weights)
+        aggregated_weight = sum(weight * block.index for weight, block in zip(self.weights, blockchain.chain))
+        return aggregated_weight / total_weight
+
+    
