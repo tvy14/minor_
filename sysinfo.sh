@@ -28,7 +28,7 @@ check_gcc_version() {
 # Check kernel headers
 check_kernel_headers() {
   print_section_header "Kernel Headers"
-  uname -r
+  uname -r && cat etc/*release
   dpkg -l | grep linux-headers | awk '{print $2, $3}'
 }
 
