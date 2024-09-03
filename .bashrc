@@ -150,8 +150,7 @@ alias gitgmail="git config --global user.email"
 alias gitlocalname="git config user.name"
 alias gitlocalmail="git config user.email"
 
-alias gitsetlocal_tvy13="git config --local user.name tvy13"
-alias gitsetlocal_mail="git config --local user.email timovy.c@nycu.edu.tw"
+#
 
 alias imgedit="flatpak run org.gimp.GIMP//stable"
 alias lanya="ls -lA /sys/class/bluetooth/"

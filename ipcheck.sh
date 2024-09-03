@@ -44,6 +44,13 @@ check_routing_table() {
   ip route list
 }
 
+# Scan Neighbors IP
+check_neighbors_ip() {
+  print_section_header "Scan Neighbors IP"
+  sudo ip neighbour
+}
+
+
 #other functions to be added
 
 
@@ -55,9 +62,7 @@ main() {
   check_ip_status_config
   check_connection_status
   check_routing_table
-  #check_open_ports
-  #check_dns
-  
+  check_neighbors_ip
 }
 
 main
