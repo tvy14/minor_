@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "if this one is running with /bin/bash or bash interpreter"
