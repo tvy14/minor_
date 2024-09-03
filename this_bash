@@ -1,2 +1,6 @@
 #!/bin/bash
 echo "if this one is running with /bin/bash or bash interpreter"
+
+# This script is only showing for the bash interpreter
+# within this bash, if we run with the commd bash [filename], the shebang line will be ignored,
+# and the executable permission is Not Required (file not necessarily needed to be +x)
